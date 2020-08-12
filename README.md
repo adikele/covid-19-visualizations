@@ -1,9 +1,16 @@
 # covid-19-visualizations
-By Aditya Kelekar, dt:1.8.2020
+By Aditya Kelekar, dt:1.8.2020, rev: 12.8.2020
 
 PROJECT PLAN:
-Stage 1 (ready): Country plots for a fixed date 
-Stage 2 (in the works): Country plots showing growth/decline of cases reported over a period 
+Stage 1 (completed 1.8.2020): covid19CountriesAndCases.py 
+Country bar graphs for a fixed date 
+
+Stage 2 (completed 12.8.2020): covid_bargraphs.py
+Country bar graphs for a fixed date: reformatted version of covid19CountriesAndCases.py with functions performing specific tasks 
+
+Stage 3 (in the works): 
+(i) Country plots showing growth/decline of cases reported over a period 
+(ii) Program to include data fetching from APIs, and also a GUI interface
 
 PROGRAM DESCRIPTION:
 Program displays Covid-19 data taking its source from a .csv file with worldwide figures. 
